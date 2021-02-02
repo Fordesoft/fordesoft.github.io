@@ -19,7 +19,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Modern+Antiqua&display=swap" rel="stylesheet">
-	<link href="mklb/css/mklb.css" rel="stylesheet">
+	<link href="css/lightbox.min.css" rel="stylesheet" />
 
 	<style>
 		body {
@@ -117,11 +117,11 @@
 
 		<div class="trailer">
 			<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/yyRrFSTy54w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-			<img class="mklbItem" src="images/screenshot1t.png" data-src="images/screenshot1.png" data-gallery="gallery1" />
-			<img class="mklbItem" src="images/screenshot5t.png" data-src="images/screenshot5.jpg" data-gallery="gallery1" />
-			<img class="mklbItem" src="images/screenshot2t.png" data-src="images/screenshot2.png" data-gallery="gallery1" />
-			<img class="mklbItem" src="images/screenshot3t.png" data-src="images/screenshot3.png" data-gallery="gallery1" />
-			<img class="mklbItem" src="images/screenshot4t.jpg" data-src="images/screenshot4.jpg" data-gallery="gallery1" />
+			<a href="images/screenshot1.png" data-lightbox="image-1" data-title="What day is this?"><img src="images/screenshot1t.png" alt="Screenshot 1"></a>
+			<a href="images/screenshot5.jpg" data-lightbox="image-4" data-title="Command an army of demons"><img src="images/screenshot5t.png" alt="Screenshot 5"></a>
+			<a href="images/screenshot2.png" data-lightbox="image-5" data-title="Home sweet home"><img src="images/screenshot2t.png" alt="Screenshot 2"></a>
+			<a href="images/screenshot3.png" data-lightbox="image-2" data-title="Exploring the dangerous Dead Plains"><img src="images/screenshot3t.png" alt="Screenshot 3"></a>
+			<a href="images/screenshot4.jpg" data-lightbox="image-3" data-title="Walking the halls of a cold, dark prison"><img src="images/screenshot4t.jpg" alt="Screenshot 4"></a>
 
 		</div>
 
@@ -156,6 +156,7 @@
 			<a href="http://www.fordesoft.com" target="_blank"><img src="images/fordesoft.png" alt="Game by Fordesoft, LLC" title="Game by Fordesoft, LLC"></a>
 		</div>
 	</div>
-	<script src="mklb/js/mklb.js"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
 </body>
 </html>
