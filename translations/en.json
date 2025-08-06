@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Eternal Exodus - a 2D monster-catching RPG set in the Afterlife, with crafting and fusion",
+    "description": "A retro monster-catching/fusing game set in the afterlife, inspired by the Shin Megami Tensei series. Catch & fuse demons as you journey through Hell.",
+    "keywords": "indie rpg game monster-catching fusing crafting 2d pixel retro"
+  },
+  "main_tagline": "Pokemon gameplay meets Final Fantasy story/worldbuilding",
+  "main_description": "Catch and fuse demons in your journey to conquer the afterlife.",
+  "sub_description": "In the process, uncover the metaphysical secrets of the universe and tear open the fabric of reality.",
+  "release_info": "Out late 2025 on PlayStation 4, Nintendo Switch, Xbox One, Steam, and Epic.",
+  "development_notice": "Game still in development. Some things may change.",
+  "screenshot_captions": {
+    "screenshot1": "Begin your journey in the humble village of Minden",
+    "screenshot2": "Play minigames",
+    "screenshot3": "Exploring the dangerous Dead Plains",
+    "screenshot4": "Explore a beautiful world like no other",
+    "screenshot5": "Command an army of demons",
+    "screenshot6": "Climb to new heights"
+  },
+  "social_links": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "reddit": "/r/EternalExodus",
+    "discord": "Discord",
+    "press_kit": "Press Kit"
+  },
+  "features": {
+    "catch_fuse": "Catch and fuse demons",
+    "press_turn": "Press-turn combat: exploit enemies' weaknesses to gain free turns",
+    "learn_spells": "Learn spells from weapons & armor (like Final Fantasy IX)",
+    "crafting": "Item crafting",
+    "minigames": "Minigames",
+    "world_map": "Massive world map",
+    "sidequests": "Rewarding sidequests",
+    "story": "Philosophical story",
+    "soundtrack": "Catchy soundtrack",
+    "pixel_art": "Vibrant pixel art",
+    "voice_acting": "Voice acting",
+    "languages": "English, Spanish, Japanese, Chinese, BrazilianPortuguese, French, and German"
+  },
+  "email_signup": {
+    "title": "Get a notification on release:",
+    "email_label": "Email Address",
+    "subscribe_button": "Notify me"
+  },
+  "copyright": "© 2025 Fordesoft, LLC",
+  "company_alt": "Game by Fordesoft, LLC"
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "永恒出埃及记 - 一款以来世为背景的2D怪物捕捉RPG游戏，具有制作和融合元素",
+    "description": "一款以来世为背景的复古怪物捕捉/融合游戏，灵感来自真女神转生系列。在地狱之旅中捕捉和融合恶魔。",
+    "keywords": "独立游戏 rpg 怪物捕捉 融合 制作 2d 像素 复古"
+  },
+  "main_tagline": "宝可梦的游戏玩法遇上最终幻想的故事/世界构建",
+  "main_description": "在征服来世的旅程中捕捉和融合恶魔。",
+  "sub_description": "在这个过程中，揭开宇宙的形而上学秘密，撕开现实的结构。",
+  "release_info": "将于2025年末在PlayStation 4、Nintendo Switch、Xbox One、Steam和Epic上发布。",
+  "development_notice": "游戏仍在开发中。某些内容可能会发生变化。",
+  "screenshot_captions": {
+    "screenshot1": "在朴素的明登村开始你的旅程",
+    "screenshot2": "玩小游戏",
+    "screenshot3": "探索危险的死亡平原",
+    "screenshot4": "探索独一无二的美丽世界",
+    "screenshot5": "指挥恶魔军团",
+    "screenshot6": "攀登新的高度"
+  },
+  "social_links": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "reddit": "/r/EternalExodus",
+    "discord": "Discord",
+    "press_kit": "媒体资料包"
+  },
+  "features": {
+    "catch_fuse": "捕捉和融合恶魔",
+    "press_turn": "回合制战斗：利用敌人的弱点获得免费回合",
+    "learn_spells": "从武器和护甲中学习法术（类似最终幻想IX）",
+    "crafting": "物品制作",
+    "minigames": "小游戏",
+    "world_map": "庞大的世界地图",
+    "sidequests": "有价值的支线任务",
+    "story": "哲学性故事",
+    "soundtrack": "朗朗上口的配乐",
+    "pixel_art": "生动的像素艺术",
+    "voice_acting": "语音表演",
+    "languages": "英语、西班牙语、日语、中文、葡萄牙语、法语和德语"
+  },
+  "email_signup": {
+    "title": "在发布时获得通知：",
+    "email_label": "电子邮件地址",
+    "subscribe_button": "通知我"
+  },
+  "copyright": "© 2025 Fordesoft, LLC",
+  "company_alt": "Fordesoft, LLC出品游戏"
+}

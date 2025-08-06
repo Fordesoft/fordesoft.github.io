@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Eternal Exodus - un RPG 2D de capture de monstres se déroulant dans l'Au-delà, avec artisanat et fusion",
+    "description": "Un jeu rétro de capture/fusion de monstres se déroulant dans l'au-delà, inspiré de la série Shin Megami Tensei. Capturez et fusionnez des démons lors de votre voyage en Enfer.",
+    "keywords": "jeu indé rpg capture monstres fusion artisanat 2d pixel rétro"
+  },
+  "main_tagline": "Le gameplay de Pokemon rencontre l'histoire/construction du monde de Final Fantasy",
+  "main_description": "Capturez et fusionnez des démons dans votre quête pour conquérir l'au-delà.",
+  "sub_description": "Dans le processus, découvrez les secrets métaphysiques de l'univers et déchirez le tissu de la réalité.",
+  "release_info": "Sortie fin 2025 sur PlayStation 4, Nintendo Switch, Xbox One, Steam et Epic.",
+  "development_notice": "Jeu encore en développement. Certaines choses peuvent changer.",
+  "screenshot_captions": {
+    "screenshot1": "Commencez votre voyage dans l'humble village de Minden",
+    "screenshot2": "Jouez à des mini-jeux",
+    "screenshot3": "Explorant les dangereuses Plaines Mortes",
+    "screenshot4": "Explorez un monde magnifique comme nul autre",
+    "screenshot5": "Commandez une armée de démons",
+    "screenshot6": "Grimpez vers de nouveaux sommets"
+  },
+  "social_links": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "reddit": "/r/EternalExodus",
+    "discord": "Discord",
+    "press_kit": "Kit de Presse"
+  },
+  "features": {
+    "catch_fuse": "Capturez et fusionnez des démons",
+    "press_turn": "Combat au tour par tour : exploitez les faiblesses ennemies pour gagner des tours gratuits",
+    "learn_spells": "Apprenez des sorts à partir d'armes et d'armures (comme Final Fantasy IX)",
+    "crafting": "Artisanat d'objets",
+    "minigames": "Mini-jeux",
+    "world_map": "Carte du monde massive",
+    "sidequests": "Quêtes secondaires gratifiantes",
+    "story": "Histoire philosophique",
+    "soundtrack": "Bande sonore accrocheuse",
+    "pixel_art": "Art pixelisé vibrant",
+    "voice_acting": "Doublage vocal",
+    "languages": "Anglais, Espagnol, Japonais, Chinois, Portugais, Français et Allemand"
+  },
+  "email_signup": {
+    "title": "Recevez une notification à la sortie :",
+    "email_label": "Adresse E-mail",
+    "subscribe_button": "Me notifier"
+  },
+  "copyright": "© 2025 Fordesoft, LLC",
+  "company_alt": "Jeu par Fordesoft, LLC"
+}

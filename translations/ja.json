@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Eternal Exodus - クラフトと融合要素を持つ、来世を舞台にした2Dモンスター捕獲RPG",
+    "description": "真・女神転生シリーズにインスパイアされた、来世を舞台にしたレトロなモンスター捕獲・融合ゲーム。地獄を旅しながら悪魔を捕獲・融合しよう。",
+    "keywords": "インディー rpg ゲーム モンスター捕獲 融合 クラフト 2d ピクセル レトロ"
+  },
+  "main_tagline": "ポケモンのゲームプレイとファイナルファンタジーのストーリー/世界構築",
+  "main_description": "来世を征服する旅で悪魔を捕獲し融合させよう。",
+  "sub_description": "その過程で、宇宙の形而上学的秘密を解き明かし、現実の構造を引き裂く。",
+  "release_info": "2025年後半にPlayStation 4、Nintendo Switch、Xbox One、Steam、Epicでリリース予定。",
+  "development_notice": "ゲームはまだ開発中です。一部変更される可能性があります。",
+  "screenshot_captions": {
+    "screenshot1": "質素な村ミンデンで旅を始めよう",
+    "screenshot2": "ミニゲームをプレイ",
+    "screenshot3": "危険な死の平原を探索",
+    "screenshot4": "他に類を見ない美しい世界を探索",
+    "screenshot5": "悪魔の軍団を指揮",
+    "screenshot6": "新たな高みへ登る"
+  },
+  "social_links": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "reddit": "/r/EternalExodus",
+    "discord": "Discord",
+    "press_kit": "プレスキット"
+  },
+  "features": {
+    "catch_fuse": "悪魔の捕獲と融合",
+    "press_turn": "プレスターン戦闘：敵の弱点を突いて追加ターンを獲得",
+    "learn_spells": "武器と防具から呪文を習得（ファイナルファンタジーIXのように）",
+    "crafting": "アイテム製作",
+    "minigames": "ミニゲーム",
+    "world_map": "巨大なワールドマップ",
+    "sidequests": "やりがいのあるサイドクエスト",
+    "story": "哲学的なストーリー",
+    "soundtrack": "キャッチーなサウンドトラック",
+    "pixel_art": "鮮やかなピクセルアート",
+    "voice_acting": "ボイスアクティング",
+    "languages": "英語、スペイン語、日本語、中国語、ポルトガル語、フランス語、ドイツ語"
+  },
+  "email_signup": {
+    "title": "リリース時に通知を受け取る：",
+    "email_label": "メールアドレス",
+    "subscribe_button": "通知する"
+  },
+  "copyright": "© 2025 Fordesoft, LLC",
+  "company_alt": "Fordesoft, LLC製のゲーム"
+}

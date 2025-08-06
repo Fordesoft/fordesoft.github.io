@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Eternal Exodus - um RPG 2D de captura de monstros ambientado no Pós-Vida, com criação e fusão",
+    "description": "Um jogo retrô de captura/fusão de monstros ambientado no além, inspirado na série Shin Megami Tensei. Capture e funda demônios em sua jornada pelo Inferno.",
+    "keywords": "jogo indie rpg captura monstros fusão criação 2d pixel retrô"
+  },
+  "main_tagline": "Jogabilidade de Pokemon com história/construção de mundo de Final Fantasy",
+  "main_description": "Capture e funda demônios em sua jornada para conquistar o além.",
+  "sub_description": "No processo, descubra os segredos metafísicos do universo e rasgue a estrutura da realidade.",
+  "release_info": "Lançamento no final de 2025 para PlayStation 4, Nintendo Switch, Xbox One, Steam e Epic.",
+  "development_notice": "Jogo ainda em desenvolvimento. Algumas coisas podem mudar.",
+  "screenshot_captions": {
+    "screenshot1": "Comece sua jornada na humilde vila de Minden",
+    "screenshot2": "Jogue minijogos",
+    "screenshot3": "Explorando as perigosas Planícies Mortas",
+    "screenshot4": "Explore um mundo lindo como nenhum outro",
+    "screenshot5": "Comande um exército de demônios",
+    "screenshot6": "Escale novas alturas"
+  },
+  "social_links": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "reddit": "/r/EternalExodus",
+    "discord": "Discord",
+    "press_kit": "Kit de Imprensa"
+  },
+  "features": {
+    "catch_fuse": "Capture e funda demônios",
+    "press_turn": "Combate por turnos: explore as fraquezas dos inimigos para ganhar turnos grátis",
+    "learn_spells": "Aprenda magias de armas e armaduras (como Final Fantasy IX)",
+    "crafting": "Criação de itens",
+    "minigames": "Minijogos",
+    "world_map": "Mapa do mundo massivo",
+    "sidequests": "Missões secundárias recompensadoras",
+    "story": "História filosófica",
+    "soundtrack": "Trilha sonora cativante",
+    "pixel_art": "Arte de pixel vibrante",
+    "voice_acting": "Dublagem",
+    "languages": "Inglês, Espanhol, Japonês, Chinês, Português, Francês e Alemão"
+  },
+  "email_signup": {
+    "title": "Receba uma notificação no lançamento:",
+    "email_label": "Endereço de E-mail",
+    "subscribe_button": "Me notifique"
+  },
+  "copyright": "© 2025 Fordesoft, LLC",
+  "company_alt": "Jogo da Fordesoft, LLC"
+}

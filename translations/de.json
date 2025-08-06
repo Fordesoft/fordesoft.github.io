@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Eternal Exodus - ein 2D Monster-Fang-RPG im Jenseits mit Handwerk und Fusion",
+    "description": "Ein Retro-Monster-Fang/Fusions-Spiel im Jenseits, inspiriert von der Shin Megami Tensei Serie. Fange und verschmelze Dämonen auf deiner Reise durch die Hölle.",
+    "keywords": "indie rpg spiel monster fangen fusion handwerk 2d pixel retro"
+  },
+  "main_tagline": "Pokemon Gameplay trifft auf Final Fantasy Story/Weltenbau",
+  "main_description": "Fange und verschmelze Dämonen auf deiner Reise zur Eroberung des Jenseits.",
+  "sub_description": "Entdecke dabei die metaphysischen Geheimnisse des Universums und zerreiße das Gefüge der Realität.",
+  "release_info": "Erscheint Ende 2025 für PlayStation 4, Nintendo Switch, Xbox One, Steam und Epic.",
+  "development_notice": "Spiel noch in Entwicklung. Einige Dinge können sich ändern.",
+  "screenshot_captions": {
+    "screenshot1": "Beginne deine Reise im bescheidenen Dorf Minden",
+    "screenshot2": "Spiele Minispiele",
+    "screenshot3": "Erkundung der gefährlichen Toten Ebenen",
+    "screenshot4": "Erkunde eine wunderschöne Welt wie keine andere",
+    "screenshot5": "Befehlige eine Armee von Dämonen",
+    "screenshot6": "Erklimme neue Höhen"
+  },
+  "social_links": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "reddit": "/r/EternalExodus",
+    "discord": "Discord",
+    "press_kit": "Pressekit"
+  },
+  "features": {
+    "catch_fuse": "Fange und verschmelze Dämonen",
+    "press_turn": "Rundenkampf: Nutze Feindschwächen für kostenlose Züge",
+    "learn_spells": "Lerne Zauber von Waffen und Rüstungen (wie Final Fantasy IX)",
+    "crafting": "Gegenstandsherstellung",
+    "minigames": "Minispiele",
+    "world_map": "Riesige Weltkarte",
+    "sidequests": "Lohnende Nebenquests",
+    "story": "Philosophische Geschichte",
+    "soundtrack": "Eingängiger Soundtrack",
+    "pixel_art": "Lebendige Pixelkunst",
+    "voice_acting": "Sprachausgabe",
+    "languages": "Englisch, Spanisch, Japanisch, Chinesisch, Portugiesisch, Französisch und Deutsch"
+  },
+  "email_signup": {
+    "title": "Benachrichtigung bei Veröffentlichung erhalten:",
+    "email_label": "E-Mail-Adresse",
+    "subscribe_button": "Benachrichtigen"
+  },
+  "copyright": "© 2025 Fordesoft, LLC",
+  "company_alt": "Spiel von Fordesoft, LLC"
+}

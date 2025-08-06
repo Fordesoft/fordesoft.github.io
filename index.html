@@ -20,6 +20,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Modern+Antiqua&display=swap" rel="stylesheet">
 	<link href="css/lightbox.min.css" rel="stylesheet" />
+	<link href="css/language-switcher.css" rel="stylesheet" />
 
 	<style>
 		@media (max-width: 600px) {
@@ -152,40 +153,43 @@
 	<div class="main-container">
 		<div>
 			<img src="images/box.png" style="margin-left: auto; margin-right: auto; width: 50%; border-radius: 5px;  margin-top: 20px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); ">
+			<div id="japanese-game-title" style="display: none; position: relative; top: -108px; left: -228px; color: white; text-weight: bold; text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.6); /* drop shadow */
+  ">エターナル・エクソダス</div>
 		</div>
 
 		
 
 		<div class="description">
-			<p>Pokemon gameplay meets Final Fantasy story/worldbuilding</p>
+			<p data-translate="main_tagline">Pokemon gameplay meets Final Fantasy story/worldbuilding</p>
 			<p><img src="images/gif2.gif"><img src="images/gif1.gif"><img src="images/gif4.gif"></p>
 			<div class="well" style="margin-top: -10px; width: 70%; max-width: 1200px;">
-				<p>Catch and fuse demons in your journey to conquer the afterlife.</p>
-				<p class="description-small-text">In the process, uncover the metaphysical secrets of the universe and tear open the fabric of reality.</p>
+				<p data-translate="main_description">Catch and fuse demons in your journey to conquer the afterlife.</p>
+				<p class="description-small-text" data-translate="sub_description">In the process, uncover the metaphysical secrets of the universe and tear open the fabric of reality.</p>
 				<p>-</p>
-				<p class="description-small-text">Out late 2025 on PlayStation 4, Nintendo Switch, Xbox One, Steam, and Epic.</p>
+				<p class="description-small-text" data-translate="release_info">Out late 2025 on PlayStation 4, Nintendo Switch, Xbox One, Steam, and Epic.</p>
 			</div>
 		</div>
 
 		<div class="trailer">
 			<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/RN2W69zjkJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<br>-->
-			<a href="images/screenshot1.png" data-lightbox="image-1" data-title="Begin your journey in the humble village of Minden"><img src="images/screenshot1t.png" alt="Screenshot 1"></a>
-			<a href="images/screenshot5.png" data-lightbox="image-4" data-title="Command an army of demons"><img src="images/screenshot5t.png" alt="Screenshot 5"></a>
-			<a href="images/screenshot4.png" data-lightbox="image-5" data-title="Explore a beautiful world like no other"><img src="images/screenshot4t.png" alt="Screenshot 2"></a>
-			<a href="images/screenshot3.png" data-lightbox="image-2" data-title="Exploring the dangerous Dead Plains"><img src="images/screenshot3t.png" alt="Screenshot 3"></a>
-			<a href="images/screenshot2.png" data-lightbox="image-3" data-title="Play minigames"><img src="images/screenshot2t.png" alt="Screenshot 2"></a>
-			<a href="images/screenshot6.png" data-lightbox="image-6" data-title="Climb to new heights"><img src="images/screenshot6t.png" alt="Screenshot 6"></a>
-			<br><i>Game still in development. Some things may change.</i>
+			<a href="images/screenshot1.png" data-lightbox="image-1" class="screenshot-link" data-screenshot="screenshot1"><img src="images/screenshot1t.png" alt="Screenshot 1"></a>
+			<a href="images/screenshot5.png" data-lightbox="image-4" class="screenshot-link" data-screenshot="screenshot5"><img src="images/screenshot5t.png" alt="Screenshot 5"></a>
+			<a href="images/screenshot4.png" data-lightbox="image-5" class="screenshot-link" data-screenshot="screenshot4"><img src="images/screenshot4t.png" alt="Screenshot 2"></a>
+			<a href="images/screenshot3.png" data-lightbox="image-2" class="screenshot-link" data-screenshot="screenshot3"><img src="images/screenshot3t.png" alt="Screenshot 3"></a>
+			<a href="images/screenshot2.png" data-lightbox="image-3" class="screenshot-link" data-screenshot="screenshot2"><img src="images/screenshot2t.png" alt="Screenshot 2"></a>
+			<a href="images/screenshot6.png" data-lightbox="image-6" class="screenshot-link" data-screenshot="screenshot6"><img src="images/screenshot6t.png" alt="Screenshot 6"></a>
+			<br><i data-translate="development_notice">Game still in development. Some things may change.</i>
 
 		</div>
 
 		<div class="links">
-			<a href="https://www.facebook.com/EternalExodusRPG" target="_blank">Facebook</a> |
-			<a href="https://www.twitter.com/Eternal_Exodus" target="_blank">Twitter</a> |
-			<a href="https://www.reddit.com/r/EternalExodus" target="_blank">/r/EternalExodus</a> |
-			<a href="https://discord.gg/M3xxsB4" target="_blank">Discord</a> |
-			<a href="/presskit/index.html" target="_blank">Press Kit</a>
+			<a href="https://www.facebook.com/EternalExodusRPG" target="_blank" data-translate="social_links.facebook">Facebook</a> |
+			<a href="https://www.twitter.com/Eternal_Exodus" target="_blank" data-translate="social_links.twitter">Twitter</a> |
+			<a href="https://www.reddit.com/r/EternalExodus" target="_blank" data-translate="social_links.reddit">/r/EternalExodus</a> |
+			<a href="https://discord.gg/M3xxsB4" target="_blank" data-translate="social_links.discord">Discord</a> |
+			<a href="/presskit/index.html" target="_blank" data-translate="social_links.press_kit">Press Kit</a>
 			<br><br>
 
 			<iframe src="https://store.steampowered.com/widget/1009410/" frameborder="0" width="646" height="190"></iframe>
@@ -198,36 +202,37 @@
 
 			<div class="well" style="max-width: 1200px">
 				<ul>
-					<li>Catch and fuse demons</li>
-					<li>Press-turn combat: exploit enemies' weaknesses to gain free turns</li>
-					<li>Learn spells from weapons &amp; armor (like Final Fantasy IX)</li>
-					<li>Item crafting</li>
-					<li>Minigames</li>
-					<li>Massive world map</li>
-					<li>Rewarding sidequests</li>
-					<li>Philosophical story</li>
-					<li>Catchy soundtrack</li>
-					<li>Vibrant pixel art</li>
-					<li>Voice acting</li>
-					<li>English, Spanish, and Japanese</li>
+					<li data-translate="features.catch_fuse">Catch and fuse demons</li>
+					<li data-translate="features.press_turn">Press-turn combat: exploit enemies' weaknesses to gain free turns</li>
+					<li data-translate="features.learn_spells">Learn spells from weapons &amp; armor (like Final Fantasy IX)</li>
+					<li data-translate="features.crafting">Item crafting</li>
+					<li data-translate="features.minigames">Minigames</li>
+					<li data-translate="features.world_map">Massive world map</li>
+					<li data-translate="features.sidequests">Rewarding sidequests</li>
+					<li data-translate="features.story">Philosophical story</li>
+					<li data-translate="features.soundtrack">Catchy soundtrack</li>
+					<li data-translate="features.pixel_art">Vibrant pixel art</li>
+					<li data-translate="features.voice_acting">Voice acting</li>
+					<li data-translate="features.languages">English, Spanish, Japanese, Chinese, Brazilian Portuguese, French, and German</li>
 				</ul>
 			</div>
 			<div class="well">
 				<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 				<div id="mc_embed_signup"><form action="https://fordesoft.us18.list-manage.com/subscribe/post?u=bfba0ac77a5a01b4f88cbf1d1&amp;id=db27a708a3" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"><div id="mc_embed_signup_scroll">
-					<h3>Get a notification on release:</h3>
-					<div class="mc-field-group"><label for="mce-EMAIL">Email Address </label><input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value=""></div><div class="clear" id="mce-responses"><div class="response" id="mce-error-response" style="display:none"></div><div class="response" id="mce-success-response" style="display:none"></div></div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input name="b_bfba0ac77a5a01b4f88cbf1d1_db27a708a3" tabindex="-1" type="text" value=""></div><div class="clear"><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Notify me"></div></div></form>
+					<h3 data-translate="email_signup.title">Get a notification on release:</h3>
+					<div class="mc-field-group"><label for="mce-EMAIL" data-translate="email_signup.email_label">Email Address </label><input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value=""></div><div class="clear" id="mce-responses"><div class="response" id="mce-error-response" style="display:none"></div><div class="response" id="mce-success-response" style="display:none"></div></div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input name="b_bfba0ac77a5a01b4f88cbf1d1_db27a708a3" tabindex="-1" type="text" value=""></div><div class="clear"><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Notify me" data-translate="email_signup.subscribe_button"></div></div></form>
 				</div>
 			</div>
 
 			<br><br>
-			<a href="http://www.fordesoft.com" target="_blank"><img src="images/fordesoft.png" alt="Game by Fordesoft, LLC" title="Game by Fordesoft, LLC"></a>
+			<a href="http://www.fordesoft.com" target="_blank"><img src="images/fordesoft.png" alt="Game by Fordesoft, LLC" title="Game by Fordesoft, LLC" data-translate="company_alt"></a>
 			<br><br>
-			<div style="padding-bottom: 20px">© 2025 Fordesoft, LLC</div>
+			<div style="padding-bottom: 20px" data-translate="copyright">© 2025 Fordesoft, LLC</div>
 		</div>
 	</div>
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/lightbox.min.js"></script>
 	<script src="js/cookie.notice.min.js"></script>
+	<script src="js/translations.js"></script>
 </body>
 </html>
