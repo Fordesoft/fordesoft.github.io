@@ -36,7 +36,7 @@ GAME INFORMATION:
 Title: Eternal Exodus
 Genre: 2D Monster-Catching RPG
 Platform: PlayStation 4, Nintendo Switch, Xbox One, Steam, Epic Games Store
-Release Date: Late 2025
+Release Date: February 2026
 Developer: Fordesoft, LLC
 Publisher: Fordesoft, LLC
 
