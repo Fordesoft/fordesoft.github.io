@@ -4,10 +4,10 @@
     "description": "Um jogo retrô de captura/fusão de monstros ambientado no além, inspirado na série Shin Megami Tensei. Capture e funda demônios em sua jornada pelo Inferno.",
     "keywords": "jogo indie rpg captura monstros fusão criação 2d pixel retrô"
   },
-  "main_tagline": "Capture e funda dem?nios em sua jornada para conquistar o al?m.",
-  "main_description": "Finalmente, um jogo de captura de monstros com uma hist?ria de verdade.",
-  "sub_description": "Inspirado por uma ampla variedade de textos filos?ficos e m?sticos - de <i>The Republic</i> a <i>The Ra Material</i> - Eternal Exodus leva voc? a uma jornada ?nica para desvendar os segredos metaf?sicos do universo e rasgar o tecido da realidade.",
-  "release_info": "Mar?o de 2026 no PlayStation 4 e 5, Nintendo Switch, Steam e Epic.",
+  "main_tagline": "Capture e funda demônios em sua jornada para conquistar o além.",
+  "main_description": "Finalmente, um jogo de captura de monstros com uma história de verdade.",
+  "sub_description": "Inspirado por uma ampla variedade de textos filosóficos e místicos - de <i>The Republic</i> a <i>The Ra Material</i> - Eternal Exodus leva você a uma jornada única para desvendar os segredos metafísicos do universo e rasgar o tecido da realidade.",
+  "release_info": "Março de 2026 no PlayStation 4 e 5, Nintendo Switch, Steam e Epic.",
   "development_notice": "Jogo ainda em desenvolvimento. Algumas coisas podem mudar.",
   "screenshot_captions": {
     "screenshot1": "Comece sua jornada na humilde vila de Minden",
@@ -16,7 +16,7 @@
     "screenshot4": "Explore um mundo lindo como nenhum outro",
     "screenshot5": "Comande um exército de demônios",
     "screenshot6": "Escale novas alturas",
-    "screenshot7": "E enfrente um imp?rio maligno",
+    "screenshot7": "E enfrente um império maligno",
     "screenshot8": "Descubra segredos antigos"
   },
   "social_links": {
@@ -45,7 +45,7 @@
     "email_label": "Endereço de E-mail",
     "subscribe_button": "Me notifique"
   },
-  "copyright": "? 2026 Fordesoft, LLC",
+  "copyright": "© 2026 Fordesoft, LLC",
   "company_alt": "Jogo da Fordesoft, LLC",
-  "strategy_description": "Combate estrat?gico por turnos que recompensa voc? com turnos extras ao explorar as fraquezas dos inimigos."
+  "strategy_description": "Combate estratégico por turnos que recompensa você com turnos extras ao explorar as fraquezas dos inimigos."
 }

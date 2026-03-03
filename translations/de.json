@@ -4,10 +4,10 @@
     "description": "Ein Retro-Monster-Fang/Fusions-Spiel im Jenseits, inspiriert von der Shin Megami Tensei Serie. Fange und verschmelze Dämonen auf deiner Reise durch die Hölle.",
     "keywords": "indie rpg spiel monster fangen fusion handwerk 2d pixel retro"
   },
-  "main_tagline": "Fange und verschmelze D?monen auf deiner Reise zur Eroberung des Jenseits.",
+  "main_tagline": "Fange und verschmelze Dämonen auf deiner Reise zur Eroberung des Jenseits.",
   "main_description": "Endlich ein Monsterfang-Spiel mit einer echten Geschichte.",
-  "sub_description": "Inspiriert von einer gro?en Bandbreite philosophischer und mystischer Texte - von <i>The Republic</i> bis <i>The Ra Material</i> - nimmt Eternal Exodus dich mit auf eine einzigartige Reise, um die metaphysischen Geheimnisse des Universums zu l?ften und das Gef?ge der Realit?t aufzurei?en.",
-  "release_info": "M?rz 2026 f?r PlayStation 4 & 5, Nintendo Switch, Steam und Epic.",
+  "sub_description": "Inspiriert von einer großen Bandbreite philosophischer und mystischer Texte - von <i>The Republic</i> bis <i>The Ra Material</i> - nimmt Eternal Exodus dich mit auf eine einzigartige Reise, um die metaphysischen Geheimnisse des Universums zu lüften und das Gefüge der Realität aufzureißen.",
+  "release_info": "März 2026 für PlayStation 4 & 5, Nintendo Switch, Steam und Epic.",
   "development_notice": "Spiel noch in Entwicklung. Einige Dinge können sich ändern.",
   "screenshot_captions": {
     "screenshot1": "Beginne deine Reise im bescheidenen Dorf Minden",
@@ -16,8 +16,8 @@
     "screenshot4": "Erkunde eine wunderschöne Welt wie keine andere",
     "screenshot5": "Befehlige eine Armee von Dämonen",
     "screenshot6": "Erklimme neue Höhen",
-    "screenshot7": "Und stelle dich einem b?sen Imperium",
-    "screenshot8": "Enth?lle uralte Geheimnisse"
+    "screenshot7": "Und stelle dich einem bösen Imperium",
+    "screenshot8": "Enthülle uralte Geheimnisse"
   },
   "social_links": {
     "facebook": "Facebook",
@@ -45,7 +45,7 @@
     "email_label": "E-Mail-Adresse",
     "subscribe_button": "Benachrichtigen"
   },
-  "copyright": "? 2026 Fordesoft, LLC",
+  "copyright": "© 2026 Fordesoft, LLC",
   "company_alt": "Spiel von Fordesoft, LLC",
-  "strategy_description": "Strategischer rundenbasierter Kampf, der dich mit zus?tzlichen Z?gen belohnt, wenn du die Schw?chen der Gegner ausnutzt."
+  "strategy_description": "Strategischer rundenbasierter Kampf, der dich mit zusätzlichen Zügen belohnt, wenn du die Schwächen der Gegner ausnutzt."
 }

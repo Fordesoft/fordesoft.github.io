@@ -4,10 +4,10 @@
     "description": "一款以来世为背景的复古怪物捕捉/融合游戏，灵感来自真女神转生系列。在地狱之旅中捕捉和融合恶魔。",
     "keywords": "独立游戏 rpg 怪物捕捉 融合 制作 2d 像素 复古"
   },
-  "main_tagline": "?????????????????",
-  "main_description": "???????????????????",
-  "sub_description": "Eternal Exodus ????????????????? <i>The Republic</i> ? <i>The Ra Material</i>????????????????????????????????",
-  "release_info": "2026?3??? PlayStation 4 ? 5?Nintendo Switch?Steam ? Epic?",
+  "main_tagline": "在征服来世的旅程中捕捉和融合恶魔。",
+  "main_description": "终于，一款拥有真正剧情的怪物捕捉游戏。",
+  "sub_description": "Eternal Exodus 受广泛的哲学与神秘主义文本启发，从 <i>The Republic</i> 到 <i>The Ra Material</i>，带你踏上一段独特旅程，揭开宇宙的形而上秘密，并撕开现实的帷幕。",
+  "release_info": "2026年3月登陆 PlayStation 4 和 5、Nintendo Switch、Steam 与 Epic。",
   "development_notice": "游戏仍在开发中。某些内容可能会发生变化。",
   "screenshot_captions": {
     "screenshot1": "在朴素的明登村开始你的旅程",
@@ -16,8 +16,8 @@
     "screenshot4": "探索独一无二的美丽世界",
     "screenshot5": "指挥恶魔军团",
     "screenshot6": "攀登新的高度",
-    "screenshot7": "???????",
-    "screenshot8": "??????"
+    "screenshot7": "并挑战邪恶帝国",
+    "screenshot8": "揭开远古秘密"
   },
   "social_links": {
     "facebook": "Facebook",
@@ -45,7 +45,7 @@
     "email_label": "电子邮件地址",
     "subscribe_button": "通知我"
   },
-  "copyright": "? 2026 Fordesoft, LLC",
+  "copyright": "© 2026 Fordesoft, LLC",
   "company_alt": "Fordesoft, LLC出品游戏",
-  "strategy_description": "???????????????????????????"
+  "strategy_description": "强调策略的回合制战斗：利用敌人弱点可获得额外回合奖励。"
 }

@@ -5,7 +5,7 @@
     "keywords": "indie rpg game monster-catching fusing crafting 2d pixel retro"
   },
   "main_tagline": "Catch and fuse demons in your journey to conquer the afterlife.",
-  "main_description": "Finally, a monster-catching game with a real story",
+  "main_description": "Finally, a monster-catching RPG with a real story",
   "sub_description": "Inspired by a wide range of philosophical and mystical texts - everything from <i>The Republic</i> to <i>The Ra Material</i> - Eternal Exodus takes you on a unique journey to uncover the metaphysical secrets of the universe and tear open the fabric of reality.",
   "release_info": "March 2026 on PlayStation 4 & 5, Nintendo Switch, Steam, and Epic.",
   "development_notice": "Game still in development. Some things may change.",
@@ -45,7 +45,7 @@
     "email_label": "Email Address",
     "subscribe_button": "Notify me"
   },
-  "copyright": "? 2026 Fordesoft, LLC",
+  "copyright": "© 2026 Fordesoft, LLC",
   "company_alt": "Game by Fordesoft, LLC",
   "strategy_description": "Strategic turn-based combat that rewards you with extra turns as you exploit enemies' weaknesses."
 }
