@@ -215,6 +215,13 @@ class TranslationManager {
         document.getElementById('langOptions').classList.remove('show');
     }
 
+    updateLanguageSpecificUI() {
+        const japaneseTitle = document.getElementById('japanese-game-title');
+        if (japaneseTitle) {
+            japaneseTitle.style.display = this.currentLanguage === 'ja' ? 'block' : 'none';
+        }
+    }
+
     updatePageLanguage() {
         document.documentElement.setAttribute('lang', this.currentLanguage);
         
