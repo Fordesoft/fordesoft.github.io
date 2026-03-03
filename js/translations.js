@@ -24,6 +24,7 @@ class TranslationManager {
         
         // Apply translations to the page
         this.translatePage();
+        this.updateLanguageSpecificUI();
         
         // Create language switcher
         this.createLanguageSwitcher();
@@ -92,8 +93,8 @@ class TranslationManager {
         // Translate elements with data-translate attribute
         document.querySelectorAll('[data-translate]').forEach(element => {
             const key = element.getAttribute('data-translate');
-            const translation = this.getNestedTranslation(currentTranslations, key);
-            if (translation) {
+            const translation = this.getNestedTranslation(currentTranslations, key) ?? this.getNestedTranslation(this.translations.en, key);
+            if (translation !== null && translation !== undefined) {
                 if (element.tagName === 'INPUT' && element.type === 'submit') {
                     element.value = translation;
                 } else if (element.tagName === 'IMG') {
@@ -108,8 +109,10 @@ class TranslationManager {
         // Handle screenshot captions for lightbox
         document.querySelectorAll('.screenshot-link').forEach(link => {
             const screenshotKey = link.getAttribute('data-screenshot');
-            if (screenshotKey && currentTranslations.screenshot_captions && currentTranslations.screenshot_captions[screenshotKey]) {
-                link.setAttribute('data-title', currentTranslations.screenshot_captions[screenshotKey]);
+            const screenshotCaption = currentTranslations?.screenshot_captions?.[screenshotKey]
+                || this.translations?.en?.screenshot_captions?.[screenshotKey];
+            if (screenshotKey && screenshotCaption) {
+                link.setAttribute('data-title', screenshotCaption);
             }
         });
 
@@ -182,7 +185,6 @@ class TranslationManager {
         if (newLang === this.currentLanguage) return;
         
         console.log('switching to', newLang);
-        document.getElementById('japanese-game-title').style.display = newLang === 'ja' ? 'block' : 'none';
 
         this.currentLanguage = newLang;
         localStorage.setItem('eternal-exodus-language', newLang);
@@ -193,6 +195,7 @@ class TranslationManager {
         // Update the page
         setTimeout(() => {
             this.translatePage();
+            this.updateLanguageSpecificUI();
             this.updatePageLanguage();
             document.body.classList.remove('fade-out');
             setTimeout(() => {
