@@ -217,6 +217,110 @@
 			padding: 20px !important;
 			height: 80px !important;
 		}
+
+
+  .ps-card {
+	margin-left: auto; margin-right: auto;
+    width: 420px;
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    color: white;
+	margin-bottom: 10px;
+  }
+
+  .ps-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: #111827;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .ps-logo {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    filter: invert(34%) sepia(98%) saturate(1464%) hue-rotate(200deg) brightness(95%) contrast(101%);
+  }
+
+  .ps-content {
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .ps-image {
+    width: 140px;
+    height: 200px;
+    background: #334155;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ps-info {
+    flex: 1;
+  }
+
+  .ps-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .ps-desc {
+    font-size: 13px;
+    color: #cbd5f5;
+    margin-bottom: 12px;
+  }
+
+  .ps-platforms {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 16px;
+  }
+
+  .ps-release {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom:8px;
+  }
+
+  .ps-price {
+
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+  }
+
+  .ps-button-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    background: #19439d;
+  }
+
+  .ps-button {
+    display: inline-block;
+    background: #2563eb;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.2s ease;
+  }
+
+  .ps-button:hover {
+    background: #1d4ed8;
+  }
 	</style>
 </head>
 
@@ -243,7 +347,7 @@
 				<p>-</p>
 				<p class="description-small-text" data-translate="strategy_description">Strategic turn-based combat that rewards you with extra turns as you exploit enemies' weaknesses.</p>
 				<p>-</p>
-				<p class="description-small-text" data-translate="release_info">March 2026 on PlayStation 4 &amp; 5, Nintendo Switch, Steam, and Epic.</p>
+				<p class="description-small-text" data-translate="release_info">April 11, 2026 on PlayStation 4 &amp; 5.  Soon after for Nintendo Switch, Steam, Epic, and mobile.</p>
 			</div>
 		</div>
 
@@ -265,6 +369,35 @@
 			<a href="https://www.reddit.com/r/EternalExodus" target="_blank" data-translate="social_links.reddit">/r/EternalExodus</a> |
 			<a href="https://discord.gg/M3xxsB4" target="_blank" data-translate="social_links.discord">Discord</a>
 			<br><br>
+
+			<div class="ps-card">
+				<div class="ps-header">
+				  <img class="ps-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/00/PlayStation_logo.svg" alt="PS">
+				  PLAYSTATION STORE
+				</div>
+			  
+				<div class="ps-content">
+				  <div class="ps-image" style="background-image: url('/images/ps-background.png');"></div>
+			  
+				  <div class="ps-info">
+					<div class="ps-title">Eternal Exodus</div>
+					<div class="ps-desc">
+					  A story-driven 2D monster-catching RPG set in the afterlife. Catch, fuse, and battle demons.
+					</div>
+
+					<div class="ps-price">$19.99</div>
+			  
+					<div class="ps-platforms">PS4 • PS5</div>
+			  
+					<div class="ps-button-container">
+						<span>Available: April 11, 2026</span>
+						<a class="ps-button" href="https://store.playstation.com/en-us/concept/234280" target="_blank">
+						Wishlist on PS4/PS5
+						</a>
+					</div>
+				  </div>
+				</div>
+			</div>
 
 			<iframe src="https://store.steampowered.com/widget/1009410/" frameborder="0" width="646" height="190"></iframe>
 
