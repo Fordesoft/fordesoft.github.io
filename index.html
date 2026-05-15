@@ -321,6 +321,101 @@
   .ps-button:hover {
     background: #1d4ed8;
   }
+
+  .ns-card {
+    margin-left: auto; margin-right: auto;
+    width: 420px;
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .ns-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: #111827;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .ns-logo {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+
+  .ns-content {
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .ns-image {
+    width: 140px;
+    height: 200px;
+    background: #334155;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ns-info {
+    flex: 1;
+  }
+
+  .ns-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .ns-desc {
+    font-size: 13px;
+    color: #cbd5f5;
+    margin-bottom: 12px;
+  }
+
+  .ns-platforms {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 16px;
+  }
+
+  .ns-price {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+  }
+
+  .ns-button-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    background: #8b1a1a;
+  }
+
+  .ns-button {
+    display: inline-block;
+    background: #e60012;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.2s ease;
+  }
+
+  .ns-button:hover {
+    background: #cc0010;
+  }
 	</style>
 </head>
 
@@ -396,6 +491,35 @@
 						<span>Available now</span>
 						<a class="ps-button" href="https://store.playstation.com/en-us/concept/234280" target="_blank">
 						Add to Cart
+						</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+
+			<div class="ns-card">
+				<div class="ns-header">
+				  <img class="ns-logo" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Nintendo_Switch_logo.svg" alt="NS">
+				  NINTENDO eSHOP
+				</div>
+
+				<div class="ns-content">
+				  <div class="ns-image" style="background-image: url('/images/ps-background.png');"></div>
+
+				  <div class="ns-info">
+					<div class="ns-title">Eternal Exodus</div>
+					<div class="ns-desc">
+					  A story-driven 2D monster-catching RPG set in the afterlife. Catch, fuse, and battle demons.
+					</div>
+
+					<div class="ns-price">$19.99</div>
+
+					<div class="ns-platforms">Nintendo Switch</div>
+
+					<div class="ns-button-container">
+						<span>Available now</span>
+						<a class="ns-button" href="https://www.nintendo.com/us/store/products/eternal-exodus-switch/" target="_blank">
+						View in Store
 						</a>
 					</div>
 				  </div>
