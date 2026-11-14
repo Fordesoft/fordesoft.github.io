@@ -1,84 +1,12 @@
 <html>
 <head>
-	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="9b64848e-026f-43d0-8b98-8def7200cd46" data-blockingmode="auto" type="text/javascript"></script>
-
-	<!-- Google Consent Mode v2: deny all by default, updated on consent -->
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3040801-12"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
-	  gtag('consent', 'default', {
-	    'analytics_storage': 'denied',
-	    'ad_storage': 'denied',
-	    'ad_user_data': 'denied',
-	    'ad_personalization': 'denied',
-	    'wait_for_update': 500
-	  });
-	</script>
-
-	<!-- Honor Global Privacy Control (GPC) signal -->
-	<script>
-	  window.addEventListener('CookiebotOnLoad', function() {
-	    if (navigator.globalPrivacyControl === true) {
-	      Cookiebot.withdraw();
-	    }
-	  });
-	</script>
-
-	<!-- Consent callback: load trackers only when user grants permission -->
-	<script>
-	  function loadGoogleAnalytics() {
-	    var s = document.createElement('script');
-	    s.async = true;
-	    s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-3040801-12';
-	    document.head.appendChild(s);
-	    gtag('js', new Date());
-	    gtag('config', 'UA-3040801-12');
-	  }
-
-	  function loadVibePixel() {
-	    !function(v,i,b,e,c,o){if(!v[c]){var s=v[c]=function(){s.process?s.process.apply(s,arguments):s.queue.push(arguments)};s.queue=[],s.b=1*new Date;var t=i.createElement(b);t.async=!0,t.src=e;var n=i.getElementsByTagName(b)[0];n.parentNode.insertBefore(t,n)}}(window,document,"script","https://s.vibe.co/vbpx.js","vbpx");
-	    vbpx('init','YupNj1');
-	    vbpx('event', 'page_view');
-	  }
-
-	  function loadRokuPixel() {
-	    !function(e,r){if(!e.rkp){var t=e.rkp=function(){
-	    var e=Array.prototype.slice.call(arguments)
-	    ;e.push(Date.now()),t.eventProcessor?t.eventProcessor.apply(t,e):t.queue.push(e)
-	    };t.initiatorVersion="1.0",t.queue=[],t.load=function(e){
-	    var t=r.createElement("script");t.async=!0,t.src=e
-	    ;var n=r.getElementsByTagName("script")[0]
-	    ;(n?n.parentNode:r.body).insertBefore(t,n)},rkp.load("https://cdn.ravm.tv/ust/dist/rkp.loader.js")}
-	    }(window,document);
-	    rkp("init","PaccK5l4w2uk");
-	    rkp('event', 'PAGE_VIEW');
-	  }
-
-	  function handleConsent() {
-	    if (Cookiebot.consent.statistics) {
-	      gtag('consent', 'update', { 'analytics_storage': 'granted' });
-	      loadGoogleAnalytics();
-	    }
-	    if (Cookiebot.consent.marketing) {
-	      gtag('consent', 'update', {
-	        'ad_storage': 'granted',
-	        'ad_user_data': 'granted',
-	        'ad_personalization': 'granted'
-	      });
-	      loadVibePixel();
-	      loadRokuPixel();
-	    }
-	  }
-
-	  window.addEventListener('CookiebotOnAccept', handleConsent);
-	  window.addEventListener('CookiebotOnDecline', function() {
-	    gtag('consent', 'update', {
-	      'analytics_storage': 'denied',
-	      'ad_storage': 'denied',
-	      'ad_user_data': 'denied',
-	      'ad_personalization': 'denied'
-	    });
-	  });
+	  gtag('js', new Date());
+	  gtag('config', 'UA-3040801-12');
 	</script>
 
 	<title>Eternal Exodus - a 2D monster-catching RPG set in the Afterlife, with crafting and fusion</title>
@@ -563,9 +491,7 @@
 			<br><br>
 			<div style="padding-bottom: 10px" data-translate="copyright">&copy; 2026 Fordesoft, LLC</div>
 			<div style="padding-bottom: 20px; font-size: 16px;">
-				<a href="privacy-policy.html">Privacy Policy</a> |
-				<a href="javascript:void(0)" onclick="Cookiebot.show()">Cookie Declaration</a> |
-				<a href="javascript:void(0)" onclick="Cookiebot.renew()">Do Not Sell or Share My Personal Information</a>
+				<a href="privacy-policy.html">Privacy Policy</a>
 			</div>
 		</div>
 	</div>
